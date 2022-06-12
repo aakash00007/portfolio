@@ -409,12 +409,15 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 576px) {
   .home {
     row-gap: 2rem;
   }
   .home__img {
-    width: 200px;
+    display: none;
+  }
+  .home__data{
+    text-align: center;
   }
 }
 
